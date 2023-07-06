@@ -11,7 +11,7 @@ services:
     volumes:
       - /home/Bancos/Mysql:/var/lib/mysql
     environment:
-      MYSQL_ROOT_PASSWORD: Bola@2020
+      MYSQL_ROOT_PASSWORD: Sua@Senha
       MYSQL_DATABASE: db_mysql
     networks:
       - net_principal
