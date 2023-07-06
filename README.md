@@ -1,4 +1,4 @@
-<h1>Configuração do Mysql no Ambiente Linux, utilizando</h1>
+<h1>Configuração do Mysql no ambiente linux, utilizando Docker-Compose</h1>
 
 Docker-Compose
 ```
