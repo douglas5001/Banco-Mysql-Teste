@@ -52,7 +52,7 @@ mysql -uUSER-DE-ACESSO -p
 CREATE DATABASE NOME-DO-BANCO;
 ```
 <br>
-<h2>Criar dtabela</h2>
+<h2>Criar tabela</h2>
 
 ```
  CREATE TABLE NOME-DA-TABELA;
