@@ -43,8 +43,15 @@ Acesse o Mysql
 ```
 mysql -uUSER-DE-ACESSO -p
 ```
+<br>
+<hr>
 
-<h2>Comando Basicos</h2>
+<h2>Criar database</h2>
+
+```
+CREATE DATABASE NOME-DO-BANCO
+```
+
 <hr>
 <h3>Comandos de busca</h3>
 listar bancos
