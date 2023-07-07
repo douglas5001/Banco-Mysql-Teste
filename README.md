@@ -57,7 +57,7 @@ CREATE DATABASE NOME-DO-BANCO;
 ```
  CREATE TABLE NOME-DA-TABELA;
 ```
-
+<hr>
 <hr>
 <h3>Comandos de busca</h3>
 listar bancos
