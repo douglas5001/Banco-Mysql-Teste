@@ -74,10 +74,3 @@ Retornar tabela
 SELECT * FROM nome-DA-tabela;
 ```
 
-```
-ddddd
-```
-
-```
-ddddd
-```
