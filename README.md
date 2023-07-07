@@ -48,6 +48,7 @@ mysql -uUSER-DE-ACESSO -p
 <hr>
 <h3>Comandos de busca</h3>
 listar bancos
+
 ```
 SHOW DATABASES;
 ```
