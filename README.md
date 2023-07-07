@@ -13,7 +13,7 @@ services:
     command: --default-authentication-plugin=mysql_native_password
     restart: always
     volumes:
-      - /home/Bancos/Mysql:/var/lib/mysql
+      - /repositorio/local/do/arquivo:/var/lib/mysql
     environment:
       MYSQL_ROOT_PASSWORD: Sua@Senha
       MYSQL_DATABASE: db_mysql
@@ -28,7 +28,7 @@ volumes:
     driver_opts:
       type: none
       o: bind
-      device: /home/Bancos/Mysql
+      device: /repositorio/local/do/arquivo
 ```
 Para executar o arquivo
 
