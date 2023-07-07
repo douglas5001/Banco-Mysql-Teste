@@ -47,7 +47,7 @@ mysql -uUSER-DE-ACESSO -p
 <h2>Comando Basicos</h2>
 <hr>
 <h3>Comandos de busca</h3>
-
+listar bancos
 ```
 SHOW DATABASES;
 ```
@@ -55,9 +55,9 @@ Listar Tabelas
 ```
 SHOW TABLES;
 ```
-
+Retornar tabela
 ```
-ddddd
+SELECT * FROM nome-DA-tabela;
 ```
 
 ```
