@@ -49,7 +49,13 @@ mysql -uUSER-DE-ACESSO -p
 <h2>Criar database</h2>
 
 ```
-CREATE DATABASE NOME-DO-BANCO
+CREATE DATABASE NOME-DO-BANCO;
+```
+<br>
+<h2>Criar dtabela</h2>
+
+```
+ CREATE TABLE NOME-DA-TABELA;
 ```
 
 <hr>
