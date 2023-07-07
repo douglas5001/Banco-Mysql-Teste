@@ -1,5 +1,7 @@
 <h1>Configuração do Mysql no ambiente linux, utilizando Docker-Compose</h1>
 
+<h3>renomeie o repositorio e coloque na pasta onde ficara amarzenado os dados do banco</h3>
+
 Docker-Compose
 ```
 version: '3'
