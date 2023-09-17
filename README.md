@@ -22,6 +22,9 @@ services:
     ports:
       - 30000:3306
 
+networks:
+  net_principal:
+
 volumes:
   MYSQL_VOLUME:
     driver: local
