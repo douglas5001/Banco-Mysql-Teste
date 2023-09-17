@@ -13,9 +13,9 @@ services:
     command: --default-authentication-plugin=mysql_native_password
     restart: always
     volumes:
-      - /repositorio/local/do/arquivo:/var/lib/mysql
+      - /home/mysql/volumes:/var/lib/mysql
     environment:
-      MYSQL_ROOT_PASSWORD: Sua@Senha
+      MYSQL_ROOT_PASSWORD: Bola@2020
       MYSQL_DATABASE: db_mysql
     networks:
       - net_principal
@@ -25,13 +25,6 @@ services:
 networks:
   net_principal:
 
-volumes:
-  MYSQL_VOLUME:
-    driver: local
-    driver_opts:
-      type: none
-      o: bind
-      device: /repositorio/local/do/arquivo
 ```
 Para executar o arquivo
 
